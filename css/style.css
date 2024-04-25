@@ -2,12 +2,15 @@ body{
     margin: 0px;
     padding: 0px;
     background-image: url(../assets/stars-1654074_1280.jpg);
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
 }
 
 .sun{
-    height: 120px;
-    width: 120px;
+    height: 8vw;
+    width: 8vw;
     background-image: url(../assets/sun.png);
     border-radius: 50%;
     background-size: cover;
@@ -19,8 +22,8 @@ body{
 }
 
 .mercury{
-    height: 20px;
-    width: 20px;
+    height: 1.4vw;
+    width: 1.4vw;
     background: #a94c2b;
     border-radius: 50%;
     position: absolute;
@@ -32,8 +35,8 @@ body{
 }
 
 @keyframes orbit2{
-    from {transform: rotate(0deg)translateX(70px) rotate(0deg);}
-    to {transform: rotate(360deg)translateX(70px) rotate(-360deg);}
+    from {transform: rotate(0deg)translateX(5.12vw) rotate(0deg);}
+    to {transform: rotate(360deg)translateX(5.12vw) rotate(-360deg);}
 }
 
 p{
@@ -55,13 +58,13 @@ p{
 }
 
 .mercury-outline{
-    height: 140px;
-    width: 140px;
+    height: 10.2vw;
+    width: 10.2vw;
 }
 
 .venus{
-    height: 40px;
-    width: 40px;
+    height: 2.9vw;
+    width: 2.9vw;
     background-image: url(../assets/venus.png);
     background-size: 100%;
     border-radius: 50%;
@@ -74,18 +77,18 @@ p{
 }
 
 @keyframes orbit3{
-    from {transform: rotate(0deg)translateX(100px) rotate(0deg);}
-    to {transform: rotate(360deg)translateX(100px) rotate(-360deg);}
+    from {transform: rotate(0deg)translateX(7.31vw) rotate(0deg);}
+    to {transform: rotate(360deg)translateX(7.31vw) rotate(-360deg);}
 }
 
 .venus-outline-1{
-    height: 200px;
-    width: 200px;
+    height: 14.6vw;
+    width: 14.6vw;
 }
 
 .earth{
-    height: 50px;
-    width: 50px;
+    height: 3.66vw;
+    width: 3.66vw;
     background-image: url(../assets/earth.png);
     background-size: 100%;
     border-radius: 50%;
@@ -98,18 +101,18 @@ p{
 }
 
 @keyframes orbit4{
-    from {transform: rotate(0deg)translateX(150px) rotate(0deg);}
-    to {transform: rotate(360deg)translateX(150px) rotate(-360deg);}
+    from {transform: rotate(0deg)translateX(10.98vw) rotate(0deg);}
+    to {transform: rotate(360deg)translateX(10.98vw) rotate(-360deg);}
 }
 
 .earth-outline-1{
-    height: 300px;
-    width: 300px;
+    height: 21.96vw;
+    width: 21.96vw;
 }
 
 .earth-circle{
-    height: 65px;
-    width: 65px;
+    height: 4.76vw;
+    width: 4.76vw;
     border: 1px dotted #fff;
     position: relative;
     left: -8px;
@@ -118,8 +121,8 @@ p{
 }
 
 .earth-inner{
-    height: 10px;
-    width: 10px;
+    height: 0.73vw;
+    width: 0.73vw;
     background-color: white;
     border-radius: 50%;
     position: absolute;
@@ -130,13 +133,13 @@ p{
 }
 
 @keyframes orbit5{
-    from {transform: rotate(0deg)translateX(33px) rotate(0deg);}
-    to {transform: rotate(360deg)translateX(33px) rotate(-360deg);}
+    from {transform: rotate(0deg)translateX(2.41vw) rotate(0deg);}
+    to {transform: rotate(360deg)translateX(2.41vw) rotate(-360deg);}
 }
 
 .mars{
-    height: 30px;
-    width: 30px;
+    height: 2.19vw;
+    width: 2.19vw;
     background-image: url(../assets/mars.png);
     background-size: 100%;
     border-radius: 50%;
@@ -149,18 +152,18 @@ p{
 }
 
 @keyframes orbit6{
-    from {transform: rotate(0deg)translateX(185px) rotate(0deg);}
-    to {transform: rotate(360deg)translateX(185px) rotate(-360deg);}
+    from {transform: rotate(0deg)translateX(13.55vw) rotate(0deg);}
+    to {transform: rotate(360deg)translateX(13.55vw) rotate(-360deg);}
 }
 
 .mars-outline-1{
-    height: 370px;
-    width: 370px;
+    height: 27.10vw;
+    width: 27.10vw;
 }
 
 .jupiter{
-    height: 40px;
-    width: 40px;
+    height: 2.93vw;
+    width: 2.93vw;
     background-image: url(../assets/jupiter.png);
     background-size: 100%;
     border-radius: 50%;
@@ -173,18 +176,18 @@ p{
 }
 
 @keyframes orbit7{
-    from {transform: rotate(0deg)translateX(217px) rotate(0deg);}
-    to {transform: rotate(360deg)translateX(217px) rotate(-360deg);}
+    from {transform: rotate(0deg)translateX(15.87vw) rotate(0deg);}
+    to {transform: rotate(360deg)translateX(15.87vw) rotate(-360deg);}
 }
 
 .jupiter-outline-1{
-    height: 430px;
-    width: 430px;
+    height: 31.47vw;
+    width: 31.47vw;
 }
 
 .saturn{
-    height: 50px;
-    width: 50px;
+    height: 3.66vw;
+    width: 3.66vw;
     background-image: url(../assets/saturn.png);
     background-size: 100%;
     border-radius: 50%;
@@ -196,18 +199,18 @@ p{
 }
 
 @keyframes orbit9{
-    from {transform: rotate(0deg)translateX(250px) rotate(0deg);}
-    to {transform: rotate(360deg)translateX(250px) rotate(-360deg);}
+    from {transform: rotate(0deg)translateX(18.30vw) rotate(0deg);}
+    to {transform: rotate(360deg)translateX(18.30vw) rotate(-360deg);}
 }
 
 .saturn-outline-1{
-    height: 500px;
-    width: 500px;
+    height: 36.60vw;
+    width: 36.60vw;
 }
 
 .uranos{
-    height: 30px;
-    width: 30px;
+    height: 2.19vw;
+    width: 2.19vw;
     background-image: url(../assets/uranos.png);
     background-size: 100%;
     border-radius: 50%;
@@ -220,18 +223,18 @@ p{
 }
 
 @keyframes orbit10{
-    from {transform: rotate(0deg)translateX(280px) rotate(0deg);}
-    to {transform: rotate(360deg)translateX(280px) rotate(-360deg);}
+    from {transform: rotate(0deg)translateX(20.51vw) rotate(0deg);}
+    to {transform: rotate(360deg)translateX(20.51vw) rotate(-360deg);}
 }
 
 .uranos-outline-1{
-    height: 560px;
-    width: 560px;
+    height: 41.02vw;
+    width: 41.02vw;
 }
 
 .neptune{
-    height: 30px;
-    width: 30px;
+    height: 2.196vw;
+    width: 2.196vw;
     background-image: url(../assets/neptune.png);
     background-size: 100%;
     border-radius: 50%;
@@ -244,11 +247,11 @@ p{
 }
 
 @keyframes orbit11{
-    from {transform: rotate(0deg)translateX(310px) rotate(0deg);}
-    to {transform: rotate(360deg)translateX(310px) rotate(-360deg);}
+    from {transform: rotate(0deg)translateX(22.6vw) rotate(0deg);}
+    to {transform: rotate(360deg)translateX(22.6vw) rotate(-360deg);}
 }
 
 .neptune-outline-1{
-    height: 620px;
-    width: 620px;
+    height: 45.3vw;
+    width: 45.3vw;
 }
