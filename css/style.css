@@ -45,8 +45,8 @@ p{
     font-size: .7vw;
     font-family: system-ui;
     position: absolute;
-    left: -62px;
-    top: -11px;
+    left: -50%;
+    top: -50%;
 }
 
 .mercury-outline,.venus-outline-1,.earth-outline-1,.mars-outline-1,.jupiter-outline-1,
