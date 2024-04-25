@@ -41,6 +41,7 @@ body{
 
 p{
     color: white;
+    font-size: .7vw;
     font-family: system-ui;
     position: absolute;
     left: -62px;
@@ -113,7 +114,7 @@ p{
 .earth-circle{
     height: 4.76vw;
     width: 4.76vw;
-    border: 1px dotted #fff;
+    border: -1px dotted #fff;
     position: relative;
     left: -8px;
     top: -8px;
